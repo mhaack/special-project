@@ -30,6 +30,9 @@
                   "model": "title"
                 }
               }
+            },
+            "da": {
+              "template": " <h1 data-aue-type=\"text\" data-aue-label=\"Title\">Title</h1>"
             }
           }
         },
