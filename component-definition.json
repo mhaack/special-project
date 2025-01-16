@@ -13,6 +13,9 @@
                 "resourceType": "core/franklin/components/text/v1/text",
                 "template": {}
               }
+            },
+            "da": {
+              "template": " <div data-aue-type=\"richtext\" data-aue-label=\"Text\">Hello world</div>"
             }
           }
         },
