@@ -15,7 +15,7 @@
               }
             },
             "da": {
-              "template": "<div data-aue-type=\"richtext\" data-aue-label=\"Text\">Hello world</div>"
+              "template": "<div data-aue-type=\"richtext\" data-aue-label=\"Text\" data-aue-behavior=\"component\">Hello world</div>"
             }
           }
         },
@@ -32,7 +32,7 @@
               }
             },
             "da": {
-              "template": "<h1 data-aue-type=\"text\" data-aue-label=\"Title\">Title</h1>"
+              "template": "<h1 data-aue-type=\"text\" data-aue-label=\"Title\" data-aue-behavior=\"component\">Title</h1>"
             }
           }
         },
@@ -81,7 +81,7 @@
               }
             },
             "da": {
-              "template": "<div data-aue-type=\"container\" data-aue-label=\"Section\"></div>"
+              "template": "<div data-aue-type=\"container\" data-aue-label=\"Section\" data-aue-behavior=\"component\"></div>"
             }
           }
         }
