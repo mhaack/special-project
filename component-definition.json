@@ -73,6 +73,9 @@
                   "model": "section"
                 }
               }
+            },
+            "da": {
+              "template": " <div data-aue-type=\"container\" data-aue-label=\"Section\"></div>"
             }
           }
         }
