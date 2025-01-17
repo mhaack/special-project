@@ -108,6 +108,11 @@
             "value": "highlight"
           }
         ]
+      },
+      {
+        "component": "richtext",
+        "name": "fancy",
+        "label": "Fancy"
       }
     ]
   },
