@@ -110,7 +110,8 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
 export default async function decorate(block) {
   // load nav as fragment
   const navMeta = getMetadata('nav');
-  const navPath = navMeta ? new URL(navMeta, window.location).pathname : '/nav';
+  // TODO only temp to work with reverse proxy
+  const navPath = navMeta ? new URL(navMeta, window.location).pathname : `${hlx.codeBasePath}/nav`;
   const fragment = await loadFragment(navPath);
 
   // decorate nav DOM
