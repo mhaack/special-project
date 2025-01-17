@@ -8,7 +8,8 @@ import { loadFragment } from '../fragment/fragment.js';
 export default async function decorate(block) {
   // load footer as fragment
   const footerMeta = getMetadata('footer');
-  const footerPath = footerMeta ? new URL(footerMeta, window.location).pathname : '/footer';
+  // TODO only temp to work with reverse proxy
+  const footerPath = footerMeta ? new URL(footerMeta, window.location).pathname : `${hlx.codeBasePath}/footer`;
   const fragment = await loadFragment(footerPath);
 
   // decorate footer DOM
