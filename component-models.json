@@ -175,20 +175,20 @@
       {
         "component": "reference",
         "valueType": "string",
-        "name": "image",
+        "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>picture:nth-child(1)>img:nth-child(4).src",
         "label": "Image",
         "multi": false
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "imageAlt",
+        "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>picture:nth-child(1)>img:nth-child(4).alt",
         "label": "Alt",
         "value": ""
       },
       {
         "component": "richtext",
-        "name": "text",
+        "name": "div:nth-child(1)>div:nth-child(1)>h1:nth-child(2)",
         "value": "",
         "label": "Text",
         "valueType": "string"
