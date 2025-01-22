@@ -15,7 +15,7 @@
               }
             },
             "da": {
-              "template": "<div data-aue-type=\"richtext\" data-aue-prop=\"richtext\" data-aue-label=\"Text\" data-aue-behavior=\"component\"><p>Hello world</p></div>"
+              "template": "<div class=\"richtext\" data-aue-type=\"richtext\" data-aue-prop=\"richtext\" data-aue-label=\"Text\" data-aue-behavior=\"component\"><p>Hello world</p></div>"
             }
           }
         },
