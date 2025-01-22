@@ -8,31 +8,8 @@
           "title": "Text",
           "id": "text",
           "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/text/v1/text",
-                "template": {}
-              }
-            },
             "da": {
               "template": "<div data-aue-type=\"richtext\" data-aue-prop=\"richtext\" data-aue-label=\"Text\" data-aue-behavior=\"component\"><p>Hello world</p></div>"
-            }
-          }
-        },
-        {
-          "title": "Title",
-          "id": "title",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/title/v1/title",
-                "template": {
-                  "model": "title"
-                }
-              }
-            },
-            "da": {
-              "template": "<h1 data-aue-type=\"text\" data-aue-type=\"title\" data-aue-label=\"Title\" data-aue-behavior=\"component\">Title</h1>"
             }
           }
         },
@@ -40,11 +17,8 @@
           "title": "Image",
           "id": "image",
           "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/image/v1/image",
-                "template": {}
-              }
+            "da": {
+              "template": "<img data-aue-type=\"media\" data-aue-prop=\"image\" data-aue-label=\"Image\" data-aue-behavior=\"component\">"
             }
           }
         }
