@@ -4,13 +4,13 @@
     "fields": [
       {
         "component": "reference",
-        "name": "image",
+        "name": "img:nth-child(3).src",
         "label": "Image",
         "multi": false
       },
       {
         "component": "text",
-        "name": "imageAlt",
+        "name": "img:nth-child(3).alt",
         "label": "Alt Text"
       }
     ]
