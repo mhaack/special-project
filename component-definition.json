@@ -55,8 +55,14 @@
           "title": "Cards",
           "id": "cards",
           "plugins": {
-            "da": {
-              "template": "<div class=\"hero\" data-aue-type=\"container\" data-aue-label=\"Hero\" data-aue-model=\"hero\"><div><div><p><picture><source type=\"image/webp\" srcset=\"\"><source type=\"image/jpeg\" srcset=\"\"><img loading=\"lazy\" alt=\"\" src=\"\"></picture></p><h1></h1></div></div></div>"
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Cards",
+                  "filter": "cards"
+                }
+              }
             }
           }
         },
@@ -109,14 +115,8 @@
           "title": "Hero",
           "id": "hero",
           "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "Hero",
-                  "model": "hero"
-                }
-              }
+            "da": {
+              "template": "<div class=\"hero\" data-aue-type=\"container\" data-aue-label=\"Hero\" data-aue-model=\"hero\"><div><div><p><picture><source type=\"image/webp\" srcset=\"\"><source type=\"image/jpeg\" srcset=\"\"><img loading=\"lazy\" alt=\"\" src=\"\"></picture></p><h1></h1></div></div></div>"
             }
           }
         }
