@@ -10,8 +10,6 @@
     "components": [
       "text",
       "image",
-      "button",
-      "title",
       "hero",
       "cards",
       "columns",
@@ -34,9 +32,6 @@
     "id": "column",
     "components": [
       "text",
-      "image",
-      "button",
-      "title"
-    ]
+      "image"    ]
   }
 ]
