@@ -15,7 +15,7 @@
               }
             },
             "da": {
-              "template": "<div data-aue-type=\"richtext\" data-aue-prop=\"richtext\" data-aue-label=\"Text\" data-aue-behavior=\"component\">Hello world</div>"
+              "template": "<div data-aue-type=\"richtext\" data-aue-prop=\"richtext\" data-aue-label=\"Text\" data-aue-behavior=\"component\"><p>Hello world<p></div>"
             }
           }
         },
@@ -44,20 +44,6 @@
               "page": {
                 "resourceType": "core/franklin/components/image/v1/image",
                 "template": {}
-              }
-            }
-          }
-        },
-        {
-          "title": "Button",
-          "id": "button",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/button/v1/button",
-                "template": {
-                  "model": "button"
-                }
               }
             }
           }
