@@ -18,7 +18,7 @@
           "id": "image",
           "plugins": {
             "da": {
-              "template": "<img data-aue-type=\"media\" data-aue-prop=\"image\" data-aue-label=\"Image\" data-aue-behavior=\"component\">"
+              "template": "<picture data-aue-resource=\"urn:ab:section-0/asset-0\" data-aue-label=\"Image\" data-aue-behavior=\"component\" data-aue-prop=\"image\" data-aue-type=\"media\" data-aue-model=\"image\"><source srcset=\"\"><source srcset=\"\" media=\"(min-width: 600px)\"><img src=\"\" alt=\"\" loading=\"lazy\"></picture>"
             }
           }
         }
