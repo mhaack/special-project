@@ -56,7 +56,7 @@
           "id": "cards",
           "plugins": {
             "da": {
-              "template": "<div class=\"cards\"><div></div><div></div></div>"
+              "template": "<div class=\"cards\"><div><div></div><div></div></div></div>"
             }
           }
         },
