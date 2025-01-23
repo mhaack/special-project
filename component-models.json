@@ -90,7 +90,7 @@
     "fields": [
       {
         "component": "text",
-        "name": "div:nth-child(1)",
+        "name": "div:nth-child(1)>div:nth-child(1)",
         "label": "Fragment URL"
       }
     ]
