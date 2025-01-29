@@ -72,7 +72,9 @@
           "id": "columns",
           "plugins": {
             "da": {
-              "template": "<div class=\"columns\"><div><div></div><div></div></div></div>"
+              "name": "columns",
+              "rows": 1,
+              "columns": 2
             }
           }
         },
@@ -81,7 +83,7 @@
           "id": "fragment",
           "plugins": {
             "da": {
-              "template": "<div class=\"fragment\"><div><div></div></div></div>"
+              "name": "fragment"
             }
           }
         },
