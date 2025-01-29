@@ -9,7 +9,8 @@
           "id": "text",
           "plugins": {
             "da": {
-              "template": "<p>Hello world</p>"
+              "name": "text",
+              "type": "text"
             }
           }
         },
