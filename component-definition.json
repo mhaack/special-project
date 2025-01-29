@@ -37,7 +37,9 @@
             "da": {
               "unsafeHTML": "<div></div>"
             }
-          }
+          },
+          "filter": "section",
+          "model": "section"
         }
       ]
     },
@@ -54,7 +56,9 @@
               "rows": 1,
               "columns": 2
             }
-          }
+          },
+          "model": "cards",
+          "filter": "cards"
         },
         {
           "title": "Card",
@@ -65,7 +69,8 @@
               "rows": 2,
               "columns": 0
             }
-          }
+          },
+          "model": "card"
         },
         {
           "title": "Columns",
@@ -85,7 +90,8 @@
             "da": {
               "name": "fragment"
             }
-          }
+          },
+          "model": "fragment"
         },
         {
           "title": "Hero",
@@ -94,7 +100,8 @@
             "da": {
               "unsafeHTML": "<div class=\"hero\"><div><div><picture><source type=\"image/webp\" srcset=\"\"><source type=\"image/jpeg\" srcset=\"\"><img loading=\"lazy\"></picture><h1></h1></div></div></div>"
             }
-          }
+          },
+          "model": "hero"
         }
       ]
     }
