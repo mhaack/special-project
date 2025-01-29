@@ -19,7 +19,8 @@
           "id": "image",
           "plugins": {
             "da": {
-              "unsafeHTML": "<picture><source srcset=\"\"><source srcset=\"\" media=\"(min-width: 600px)\"><img></picture>"
+              "name": "image",
+              "type": "image"
             }
           }
         }
@@ -34,7 +35,7 @@
           "id": "section",
           "plugins": {
             "da": {
-              "template": "<div></div>"
+              "unsafeHTML": "<div></div>"
             }
           }
         }
@@ -49,7 +50,9 @@
           "id": "cards",
           "plugins": {
             "da": {
-              "template": "<div class=\"cards\"><div><div></div><div></div></div></div>"
+              "name": "cards",
+              "rows": 1,
+              "columns": 2
             }
           }
         },
