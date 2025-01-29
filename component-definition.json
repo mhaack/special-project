@@ -19,7 +19,7 @@
           "id": "image",
           "plugins": {
             "da": {
-              "template": "<picture><source srcset=\"\"><source srcset=\"\" media=\"(min-width: 600px)\"><img></picture>"
+              "unsafeHTML": "<picture><source srcset=\"\"><source srcset=\"\" media=\"(min-width: 600px)\"><img></picture>"
             }
           }
         }
