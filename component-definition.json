@@ -61,7 +61,9 @@
           "id": "card",
           "plugins": {
             "da": {
-              "template": "<div><div></div><div></div></div>"
+              "name": "card",
+              "rows": 2,
+              "columns": 0
             }
           }
         },
