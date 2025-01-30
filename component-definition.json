@@ -20,7 +20,7 @@
           "plugins": {
             "da": {
               "name": "image",
-              "type": "image"
+              "type": "img"
             }
           }
         }
