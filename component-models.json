@@ -10,13 +10,13 @@
       },
       {
         "component": "reference",
-        "name": "img:nth-child(3).src",
+        "name": "img:nth-child(3)[src]",
         "label": "Image",
         "multi": false
       },
       {
         "component": "text",
-        "name": "img:nth-child(3).alt",
+        "name": "img:nth-child(3)[alt]",
         "label": "Alt Text"
       }
     ]
@@ -37,7 +37,7 @@
       },
       {
         "component": "reference",
-        "name": "background.src",
+        "name": "background[src]",
         "label": "Image"
       },
       {
@@ -53,14 +53,14 @@
       {
         "component": "reference",
         "valueType": "string",
-        "name": "div:nth-child(1)>picture:nth-child(1)>img:nth-child(1).src",
+        "name": "div:nth-child(1)>picture:nth-child(1)>img:nth-child(1)[src]",
         "label": "Image",
         "multi": false
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "div:nth-child(1)>picture:nth-child(1)>img:nth-child(1).alt",
+        "name": "div:nth-child(1)>picture:nth-child(1)>img:nth-child(1)[alt]",
         "label": "Image Alt",
         "multi": false
       },
@@ -108,14 +108,14 @@
       {
         "component": "reference",
         "valueType": "string",
-        "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>picture:nth-child(1)>img:nth-child(4).src",
+        "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>picture:nth-child(1)>img:nth-child(4)[src]",
         "label": "Image",
         "multi": false
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>picture:nth-child(1)>img:nth-child(4).alt",
+        "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>picture:nth-child(1)>img:nth-child(4)[alt]",
         "label": "Alt",
         "value": ""
       },
