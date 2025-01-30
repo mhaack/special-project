@@ -53,14 +53,14 @@
       {
         "component": "reference",
         "valueType": "string",
-        "name": "div:nth-child(1)>picture:nth-child(1)>img:nth-child(1)[src]",
+        "name": "div:nth-child(1)>picture:nth-child(1)>img:nth-child(4)[src]",
         "label": "Image",
         "multi": false
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "div:nth-child(1)>picture:nth-child(1)>img:nth-child(1)[alt]",
+        "name": "div:nth-child(1)>picture:nth-child(1)>img:nth-child(4)[alt]",
         "label": "Image Alt",
         "multi": false
       },
