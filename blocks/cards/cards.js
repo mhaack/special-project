@@ -17,7 +17,7 @@ export default function decorate(block) {
   ul.querySelectorAll('picture > img').forEach((img) => {
     const picture = img.closest('picture');
     const optimizedPicture = createOptimizedPicture(img.src, img.alt, false, [{ width: '750' }]);
-    moveInstrumentation(picture, optimizedPicture);
+    moveInstrumentation(img, optimizedPicture.querySelector('img'))
     picture.replaceWith(optimizedPicture);
   });
   block.textContent = '';
