@@ -111,6 +111,7 @@ export default async function decorate(block) {
   // load nav as fragment
   const navMeta = getMetadata('nav');
   // TODO only temp to work with reverse proxy
+  // eslint-disable-next-line no-undef
   const navPath = navMeta ? new URL(navMeta, window.location).pathname : `${hlx.codeBasePath}/nav`;
   const fragment = await loadFragment(navPath);
 
