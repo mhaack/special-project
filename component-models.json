@@ -17,7 +17,7 @@
             "label": "Description"
           },
           {
-            "component": "aem-reference",
+            "component": "reference",
             "name": "image",
             "label": "Social Image"
           },
