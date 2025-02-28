@@ -18,7 +18,7 @@
           },
           {
             "component": "reference",
-            "name": "image",
+            "name": "image[src]",
             "label": "Social Image"
           },
           {
