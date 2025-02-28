@@ -17,6 +17,11 @@
             "label": "Description"
           },
           {
+            "component": "aem-reference",
+            "name": "image",
+            "label": "Social Image"
+          },
+          {
             "component": "date-time",
             "valueType": "date-time",
             "name": "published-date",
