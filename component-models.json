@@ -1,5 +1,65 @@
 [
   {
+    "id": "page-metadata",
+    "fields": [
+      {
+        "component": "container",
+        "label": "Fieldset",
+        "fields": [
+          {
+            "component": "text",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "component": "text",
+            "name": "description",
+            "label": "Description"
+          },
+          {
+            "component": "date-time",
+            "valueType": "date-time",
+            "name": "published-date",
+            "label": "Published Time"
+          },
+          {
+            "component": "date-time",
+            "valueType": "date-time",
+            "name": "modified-date",
+            "label": "Modified Time"
+          },
+          {
+            "component": "select",
+            "label": "Template",
+            "name": "template",
+            "valueType": "string",
+            "options": [
+              {
+                "name": "Template 1",
+                "value": "template-1"
+              },
+              {
+                "name": "Template 2",
+                "value": "template-2"
+              },
+              {
+                "name": "Template 3",
+                "value": "template-3"
+              }
+            ]
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "robots",
+            "label": "Robots",
+            "description": "Index control via robots"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "image",
     "fields": [
       {
