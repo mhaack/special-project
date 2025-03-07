@@ -75,13 +75,13 @@
       },
       {
         "component": "reference",
-        "name": "img:nth-child(4)[src]",
+        "name": "img:nth-child(3)[src]",
         "label": "Image",
         "multi": false
       },
       {
         "component": "text",
-        "name": "img:nth-child(4)[alt]",
+        "name": "img:nth-child(3)[alt]",
         "label": "Alt Text"
       }
     ]
