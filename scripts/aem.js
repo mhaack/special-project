@@ -463,13 +463,15 @@ function decorateSections(main) {
     const wrappers = [];
     let defaultContent = false;
     [...section.children].forEach((e) => {
-      if ((e.tagName === 'DIV' && !e.classList.contains('default-content-wrapper')) || !defaultContent) {
-        const wrapper = document.createElement('div');
+      if (e.tagName === 'DIV' || !defaultContent) {
+        const wrapper = e.classList.contains('default-content-wrapper') ? e : document.createElement('div');
         wrappers.push(wrapper);
         defaultContent = e.tagName !== 'DIV';
         if (defaultContent) wrapper.classList.add('default-content-wrapper');
       }
-      wrappers[wrappers.length - 1].append(e);
+      if (!e.classList.contains('default-content-wrapper')) {
+        wrappers[wrappers.length - 1].append(e);
+      }
     });
     wrappers.forEach((wrapper) => section.append(wrapper));
     section.classList.add('section');
