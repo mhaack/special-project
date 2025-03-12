@@ -462,18 +462,22 @@ function decorateSections(main) {
   main.querySelectorAll(':scope > div').forEach((section) => {
     const wrappers = [];
     let defaultContent = false;
+
     [...section.children].forEach((e) => {
-      const hasDefaultWrapper = e.classList.contains('default-content-wrapper');
-      if ((e.tagName === 'DIV' && !hasDefaultWrapper) || !defaultContent) {
-        const wrapper = hasDefaultWrapper ? e : document.createElement('div');
+      if (e.classList.contains('default-content-wrapper')) {
+        wrappers.push(e);
+      } else if (e.tagName === 'DIV' || !defaultContent) {
+        const wrapper = document.createElement('div');
         wrappers.push(wrapper);
         defaultContent = e.tagName !== 'DIV';
         if (defaultContent) wrapper.classList.add('default-content-wrapper');
-      }
-      if (!hasDefaultWrapper) {
+        wrapper.append(e);
+      } else {
         wrappers[wrappers.length - 1].append(e);
       }
     });
+
+    // Add wrapped content back
     wrappers.forEach((wrapper) => section.append(wrapper));
     section.classList.add('section');
     section.dataset.sectionStatus = 'initialized';
@@ -735,3 +739,4 @@ export {
   waitForFirstImage,
   wrapTextNodes,
 };
+
