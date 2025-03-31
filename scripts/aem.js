@@ -465,6 +465,7 @@ function decorateSections(main) {
 
     [...section.children].forEach((e) => {
       if (e.classList.contains('default-content-wrapper')) {
+        e.className = 'default-content-wrapper';
         wrappers.push(e);
       } else if (e.tagName === 'DIV' || !defaultContent) {
         const wrapper = document.createElement('div');
