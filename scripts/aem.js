@@ -464,7 +464,7 @@ function decorateSections(main) {
     let defaultContent = false;
 
     [...section.children].forEach((e) => {
-      if (e.classList.contains('default-content-wrapper')) {
+      if (e.classList.contains('richtext')) {
         e.className = 'default-content-wrapper';
         wrappers.push(e);
       } else if (e.tagName === 'DIV' || !defaultContent) {
