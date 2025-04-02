@@ -467,6 +467,11 @@ function decorateSections(main) {
       if (e.classList.contains('richtext')) {
         e.className = 'default-content-wrapper';
         wrappers.push(e);
+      } else if (e.getAttribute('data-aue-type') === 'media') {
+        const wrapper = document.createElement('div');
+        wrapper.classList.add('default-content-wrapper');
+        wrappers.push(wrapper);
+        wrapper.append(e);
       } else if (e.tagName === 'DIV' || !defaultContent) {
         const wrapper = document.createElement('div');
         wrappers.push(wrapper);
