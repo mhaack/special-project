@@ -212,7 +212,7 @@ function loadDelayed() {
 function someTest() {
   const meta = document.createElement('meta');
   meta.setAttribute('name', 'urn:adobe:aue:config:service');
-  meta.setAttribute('content', 'ab:https://aue-config.adobe.com/config');
+  meta.setAttribute('content', 'https://aue-config.adobe.com/config');
   document.head.appendChild(meta);
 
   const meta2 = document.createElement('meta');
