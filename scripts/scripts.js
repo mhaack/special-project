@@ -217,7 +217,7 @@ function someTest() {
 
   const meta2 = document.createElement('meta');
   meta2.setAttribute('name', 'urn:adobe:aue:system:ab');
-  meta2.setAttribute('content', 'ab:https://test--special-project--mhaack.aem.page/');
+  meta2.setAttribute('content', 'da:https://test--special-project--mhaack.aem.page/');
   document.head.appendChild(meta2);
 
   const script = document.createElement('script');
