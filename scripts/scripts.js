@@ -212,7 +212,7 @@ function loadDelayed() {
 function someTest() {
   const meta = document.createElement('meta');
   meta.setAttribute('name', 'urn:adobe:aue:config:service');
-  meta.setAttribute('content', 'https://aue-config.adobe.com/config');
+  meta.setAttribute('content', 'https://mute-disk-c990.mhaack.workers.dev');
   document.head.appendChild(meta);
 
   const meta2 = document.createElement('meta');
