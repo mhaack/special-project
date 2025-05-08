@@ -209,6 +209,20 @@ function loadDelayed() {
   // load anything that can be postponed to the latest here
 }
 
+function someTest() {
+  const meta = document.createElement('meta');
+  meta.setAttribute('name', 'urn:adobe:aue:config:service');
+  meta.setAttribute('content', 'ab:https://aue-config.adobe.com/config');
+  document.head.appendChild(meta);
+
+  const script = document.createElement('script');
+  script.src = 'https://universal-editor-service.adobe.io/cors.js';
+  script.async = true;
+  document.head.appendChild(script);
+}
+
+someTest();
+
 async function loadPage() {
   await loadEager(document);
   await loadLazy(document);
