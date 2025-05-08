@@ -224,6 +224,33 @@ function someTest() {
   script.src = 'https://universal-editor-service.adobe.io/cors.js';
   script.async = true;
   document.head.appendChild(script);
+
+  const script2 = document.createElement('script');
+  script2.type = 'application/vnd.adobe.aue.component+json';
+  script2.src = 'https://test--special-project--mhaack.aem.page/component-definition.json';
+  document.head.appendChild(script2);
+
+  const script3 = document.createElement('script');
+  script3.type = 'application/vnd.adobe.aue.model+json';
+  script3.src = 'https://test--special-project--mhaack.aem.page/component-models.json';
+  document.head.appendChild(script3);
+
+  const script4 = document.createElement('script');
+  script4.type = 'application/vnd.adobe.aue.filter+json';
+  script4.src = 'https://test--special-project--mhaack.aem.page/component-filters.json';
+  document.head.appendChild(script4);
+
+  const { body } = document;
+  body.setAttribute('data-aue-resource', 'urn:ab:page');
+  body.setAttribute('data-aue-label', 'Page');
+  body.setAttribute('data-aue-type', 'component');
+  body.setAttribute('data-aue-model', 'page-metadata');
+
+  const main = body.querySelector('main');
+  main.setAttribute('data-aue-resource', 'urn:ab:main');
+  main.setAttribute('data-aue-label', 'Main Content');
+  main.setAttribute('data-aue-type', 'container');
+  main.setAttribute('data-aue-filter', 'main');
 }
 
 someTest();
