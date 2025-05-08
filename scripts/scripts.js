@@ -215,6 +215,11 @@ function someTest() {
   meta.setAttribute('content', 'ab:https://aue-config.adobe.com/config');
   document.head.appendChild(meta);
 
+  const meta2 = document.createElement('meta');
+  meta2.setAttribute('name', 'urn:adobe:aue:system:ab');
+  meta2.setAttribute('content', 'ab:https://test--special-project--mhaack.aem.page/');
+  document.head.appendChild(meta2);
+
   const script = document.createElement('script');
   script.src = 'https://universal-editor-service.adobe.io/cors.js';
   script.async = true;
