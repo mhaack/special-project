@@ -216,3 +216,13 @@ async function loadPage() {
 }
 
 loadPage();
+
+const { searchParams } = new URL(window.location.href);
+
+(async function loadDa() {
+  /* eslint-disable import/no-unresolved */
+  if (searchParams.get('dapreview')) {
+    import('https://da.live/scripts/dapreview.js')
+      .then(({ default: daPreview }) => daPreview(loadPage));
+  }
+}());
