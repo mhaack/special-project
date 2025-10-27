@@ -12,7 +12,8 @@
               "name": "text",
               "type": "text"
             }
-          }
+          },
+          "filter": "text"
         },
         {
           "title": "Image",

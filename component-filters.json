@@ -38,5 +38,18 @@
       "text",
       "image"
     ]
+  },
+  {
+    "id": "text",
+    "rte": {
+      "toolbar": {
+        "insert": ["link", "unlink", "image"]
+      },
+      "actions": {
+        "image": {
+          "wrapInPicture": true
+        }
+      }
+    }
   }
 ]
