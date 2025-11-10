@@ -46,6 +46,10 @@
         "insert": ["link", "unlink", "image"]
       },
       "actions": {
+        "link": {
+          "hideTarget": true,
+          "disableForImages": true
+        },
         "image": {
           "wrapInPicture": true
         }

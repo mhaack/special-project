@@ -14,16 +14,6 @@
             }
           },
           "filter": "text"
-        },
-        {
-          "title": "Image",
-          "id": "image",
-          "plugins": {
-            "da": {
-              "name": "image",
-              "type": "image"
-            }
-          }
         }
       ]
     },
